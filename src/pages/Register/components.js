@@ -60,7 +60,7 @@ export default function List() {
               </FormControl>
             </Box>
             <Box>
-              <FormControl id="email">
+              <FormControl id="username">
                 <FormLabel>Username</FormLabel>
                 <Input w="80%" onChange={(e) => setUsername(e.target.value)} />
               </FormControl>
@@ -76,7 +76,7 @@ export default function List() {
               </FormControl>
             </Box>
             <Box>
-              <Button type="submit">
+              <Button type="submit" href="/login">
                 <Text>Register</Text>
               </Button>
             </Box>

@@ -52,7 +52,7 @@ export default function List() {
               <Text>Login</Text>
             </Box>
             <Box>
-              <FormControl id="email">
+              <FormControl id="username">
                 <FormLabel>Username</FormLabel>
                 <Input w="80%" onChange={(e) => setUsername(e.target.value)} />
               </FormControl>
